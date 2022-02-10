@@ -1,20 +1,11 @@
 #!/usr/bin/python3
 
 '''
-            dnsbrute.py
-
-         .-.         .-.
-        (.`-'--< >--'-´.)
-   __    \`           ´/    __
- .'._'-.__)'         '(__.-'_.'.
-'(´  ``'--´           `--'´´  `)'
- `._     .             .     _.´
-    ``''´               `''´´
-
-             1kTech
+	dnsbrute.py
+	1kTech
 '''
 
-import dns.resolver, time, subprocess, os, tqdm, sys
+import dns.resolver, time, subprocess, os, sys
 
 def main():
 	load()
@@ -39,18 +30,8 @@ def main():
 
 def load():
 	try:
-		#fsize=os.path.getsize(r"dnsbrute.py")
-		print("\n           dnsbrute.py")
-		print("         .-.         .-.")
-		print("        (.`-'--< >--'-´.)")
-		print("   __    \`           ´/    __")
-		print(" .'._'-.__)'         '(__.-'_.'.")
-		print("'(´  ``'--´           `--'´´  `)'")
-		print(" `._     .             .     _.´")
-		print("    ``''´               `''´´")
-		print("             1kTech\n")
-		#for i in tqdm.tqdm(range(fsize)):
-		#	time.sleep(0.0005)
+		print("\ndnsbrute.py")
+		print("[ 1kTech ]\n")
 	except Exception as error:
 		print("Error:",error)
 
