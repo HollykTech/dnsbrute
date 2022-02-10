@@ -65,4 +65,3 @@ def brute():
 	print("---")
 	sys.exit(1)
 main()
->>>>>>> 149e1cb (dnsbrute.py 1.0)
