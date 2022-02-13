@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-
 '''
-	dnsbrute.py
-	1kTech
+Brute Force DNS - Domain Name Server
+- 1kTech
 '''
-
 import dns.resolver, time, subprocess, os, sys
-
 def main():
 	load()
 	try:
@@ -27,14 +24,11 @@ def main():
 		brute()
 	except Exception as erro:
 		print("Error:", erro)
-
 def load():
 	try:
-		print("\ndnsbrute.py")
-		print("[ 1kTech ]\n")
+		print("Brute Force DNS - Domain Name Server\n- 1kTech\N")
 	except Exception as error:
 		print("Error:",error)
-
 def scriptauto():
 	global domain
 	global domainsub
@@ -50,7 +44,6 @@ def scriptauto():
 		brute()
 	except Exception as erro:
 		print("Error:", erro)
-
 def brute():
 	global domainsub
 	print("Loading results\n---")
