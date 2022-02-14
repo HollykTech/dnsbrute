@@ -26,7 +26,7 @@ def main():
 		print("Error:", erro)
 def load():
 	try:
-		print("Brute Force DNS - Domain Name Server\n- 1kTech\N")
+		print("Brute Force DNS - Domain Name Server\n- 1kTech\n")
 	except Exception as error:
 		print("Error:",error)
 def scriptauto():
